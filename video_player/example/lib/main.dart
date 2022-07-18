@@ -11,6 +11,7 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:video_player/video_player.dart';
+import 'package:video_player_example/videoview-macos.dart';
 
 void main() {
   runApp(
@@ -24,7 +25,7 @@ class _App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 2,
+      length: 4,
       child: Scaffold(
         key: const ValueKey<String>('home_page'),
         appBar: AppBar(
@@ -46,6 +47,8 @@ class _App extends StatelessWidget {
           bottom: const TabBar(
             isScrollable: true,
             tabs: <Widget>[
+              Tab(icon: Icon(Icons.computer), text: 'MacOSView File'),
+              Tab(icon: Icon(Icons.computer), text: 'MacOSView Network'),
               Tab(icon: Icon(Icons.cloud), text: 'Remote'),
               Tab(icon: Icon(Icons.file_present), text: 'File'),
             ],
@@ -53,6 +56,10 @@ class _App extends StatelessWidget {
         ),
         body: TabBarView(
           children: <Widget>[
+            VideoViewMacOS(url: File('/tmp/Butterfly-209.mp4').path),
+            VideoViewMacOS(
+                url:
+                    'https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4'),
             _BumbleBeeRemoteVideo(),
             _ButterFlyAssetVideo(),
           ],

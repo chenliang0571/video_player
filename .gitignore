@@ -49,3 +49,4 @@ app.*.map.json
 Build/
 flutter_export_environment.sh
 Generated.xcconfig
+.DS_Store
