@@ -1,0 +1,9 @@
+# This is a generated file; do not edit or check into version control.
+integration_test=/Volumes/data/SDK/flutter/packages/integration_test/
+path_provider=/Volumes/data/SDK/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider-2.0.11/
+path_provider_android=/Volumes/data/SDK/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_android-2.0.16/
+path_provider_ios=/Volumes/data/SDK/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_ios-2.0.10/
+path_provider_linux=/Volumes/data/SDK/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_linux-2.1.7/
+path_provider_macos=/Volumes/data/SDK/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_macos-2.0.6/
+path_provider_windows=/Volumes/data/SDK/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_windows-2.1.0/
+video_player_android=/Volumes/data/workspace/flutter/flutter_macos_video_player/packages/video_player/video_player_android/
